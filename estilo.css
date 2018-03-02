@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0; 
+    background:#33691e;
+    font-family: 'Arial',serif;
+}
+
+#contenedor{
+    width: 1200px;
+    height: 1750px;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    background: #F0FFFF;
+    border-radius: 1em;
+}
+
+#header{
+    width: 1200px;
+	height: 200px;
+	background-image: url(img/portada.jpg);
+    background-size: 1200px 250px;
+	border-radius: 1em;
+	margin: 1em auto;
+}
+
+#nav{
+	background-color: #006400;
+    text-align: center;
+    color: #FFFFFF;
+    list-style: none;
+    padding: 20px 0 20px 0;
+}
+#nav > li {
+    display: inline-block;
+    padding: 0 18px 0 18px;
+}
+
+#nav > li > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#nav > li > a:hover {
+    color: #eeff41 ;
+}
+
+#contenido{
+	height: 60%;
+    margin: 1em;
+    background: #F0FFFF;
+    text-align: center;
+}
+
+#footer{
+	background-color: #F0FFFF;
+    text-align: center;
+}
+
+#section{
+    height: 80%;
+    width: 70%;
+    background: #F0FFFF;
+    border-radius: 1em;
+    float: left;
+    margin: 0.5em;
+}
+
+#aside{
+    height: 80%;
+    width: 25%;
+    background: #F0FFFF;
+    border-radius: 1em;
+    float: right;
+    margin: 0.5em;
+    text-align: center;
+}
+
+#subcontenido{
+    text-align: justify;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0,8);
+    padding: 10px 28px;
+    box-sizing: border-box;
+    margin-top: 28px;
+    border-radius: 7px;
+}
+
+h2{
+    margin-bottom: 20px;
+    color: #8B4513;
+    text-align: left;
+    margin: 0;
+    font-size: 20px
+}
+h1{
+    margin-bottom: 20px;
+    color: #8B4513;
+    text-align: center;
+    margin: 0;
+    font-size: 38px
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton {
+   background: #006400;
+    color: #fff;
+    padding: 20px;
+    font-weight: bold
+}
+
+#boton {
+    cursor: pointer;
+}
+
+@media (max-with:480px) {
+    form{
+        width: 100%;
+    }
+}
+
+#cont{
+    font-size: 3;
+    text-align: center;
+    font-weight: 700;
+}
